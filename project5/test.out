@@ -1,0 +1,281 @@
+
+The input data in breadth-first order:
+
+BOSTON
+
+The shortest routes from BOSTON are:
+
+	BOSTON is the only town in the whole country!
+
+The road upgrading goal can be achieved at minimal cost by upgrading:
+
+	BOSTON is the only town in the whole country!
+
+Connected components in event of a major storm are:
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	BOSTON
+
+Obliterating any of the following would result in the province becoming disconnected:
+
+	None
+
+
+The input data in breadth-first order:
+
+WESTEROS
+	ATLANTIS 1738.2 miles 
+ATLANTIS
+	WESTEROS 1738.2 miles 
+
+The shortest routes from WESTEROS are:
+
+	ATLANTIS 1738.2 miles 
+
+The road upgrading goal can be achieved at minimal cost by upgrading:
+
+	ATLANTIS to WESTEROS
+
+Connected components in event of a major storm are:
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	WESTEROS
+	ATLANTIS
+
+Obliterating any of the following would result in the province becoming disconnected:
+
+	None
+
+
+The input data in breadth-first order:
+
+BROLAND
+	BROWORLD 27.3 miles 
+BROWORLD
+	BROLAND 27.3 miles 
+	BROCITY 29.9 miles via bridge
+BROCITY
+	BROWORLD 29.9 miles via bridge
+
+The shortest routes from BROLAND are:
+
+	BROWORLD 27.3 miles 
+	BROCITY 123 miles 
+
+The road upgrading goal can be achieved at minimal cost by upgrading:
+
+	BROWORLD to BROLAND
+	BROCITY to BROWORLD
+
+Connected components in event of a major storm are:
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	BROLAND
+	BROWORLD
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	BROCITY
+
+Obliterating any of the following would result in the province becoming disconnected:
+
+	BROWORLD
+
+
+The input data in breadth-first order:
+
+METROPOLIS
+	BOSTON 4.7 miles 
+	GOTHAM 2.4 miles via bridge
+	ATHENS 9.8 miles 
+BOSTON
+	GOTHAM 1.5 miles via bridge
+	METROPOLIS 4.7 miles 
+	ATHENS 2.1 miles 
+	VITA_ISLAND 0.3 miles via bridge
+GOTHAM
+	BOSTON 1.5 miles via bridge
+	METROPOLIS 2.4 miles via bridge
+	ATHENS 8.3 miles 
+	COLUMBIA 5.4 miles 
+ATHENS
+	BOSTON 2.1 miles 
+	METROPOLIS 9.8 miles 
+	GOTHAM 8.3 miles 
+	HYRULE 3.3 miles via bridge
+VITA_ISLAND
+	BOSTON 0.3 miles via bridge
+COLUMBIA
+	GOTHAM 5.4 miles 
+	HYRULE 6.5 miles 
+HYRULE
+	COLUMBIA 6.5 miles 
+	ATHENS 3.3 miles via bridge
+
+The shortest routes from METROPOLIS are:
+
+	GOTHAM 2.4 miles 
+	COLUMBIA 123 miles 
+	HYRULE 123 miles 
+	ATHENS 9.8 miles 
+	BOSTON 4.7 miles 
+	VITA_ISLAND 123 miles 
+
+The road upgrading goal can be achieved at minimal cost by upgrading:
+
+	VITA_ISLAND to BOSTON
+	BOSTON to GOTHAM
+	BOSTON to ATHENS
+	GOTHAM to METROPOLIS
+	ATHENS to HYRULE
+	COLUMBIA to GOTHAM
+
+Connected components in event of a major storm are:
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	METROPOLIS
+	BOSTON
+	ATHENS
+	GOTHAM
+	COLUMBIA
+	HYRULE
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	VITA_ISLAND
+
+Obliterating any of the following would result in the province becoming disconnected:
+
+	BOSTON
+
+
+The input data in breadth-first order:
+
+METROPOLIS
+	BOSTON 4.7 miles 
+	GOTHAM 2.4 miles via bridge
+	ATHENS 9.8 miles 
+	COSTCO 74.3 miles 
+BOSTON
+	GOTHAM 1.5 miles via bridge
+	METROPOLIS 4.7 miles 
+	ATHENS 2.1 miles 
+	VITA_ISLAND 0.3 miles via bridge
+GOTHAM
+	BOSTON 1.5 miles via bridge
+	METROPOLIS 2.4 miles via bridge
+	ATHENS 8.3 miles 
+	COLUMBIA 5.4 miles 
+	AZEROTH 13.4 miles via bridge
+ATHENS
+	BOSTON 2.1 miles 
+	METROPOLIS 9.8 miles 
+	GOTHAM 8.3 miles 
+	HYRULE 3.3 miles via bridge
+	TACO_BELL 11.1 miles via bridge
+	EGGLAND 5.6 miles 
+COSTCO
+	METROPOLIS 74.3 miles 
+	WASTELAND 2.2 miles via bridge
+VITA_ISLAND
+	BOSTON 0.3 miles via bridge
+COLUMBIA
+	GOTHAM 5.4 miles 
+	HYRULE 6.5 miles 
+AZEROTH
+	GOTHAM 13.4 miles via bridge
+	EL_DORADO 3 miles 
+	WASTELAND 7.1 miles 
+HYRULE
+	COLUMBIA 6.5 miles 
+	ATHENS 3.3 miles via bridge
+TACO_BELL
+	ATHENS 11.1 miles via bridge
+	EGGLAND 2.4 miles via bridge
+EGGLAND
+	TACO_BELL 2.4 miles via bridge
+	ATHENS 5.6 miles 
+WASTELAND
+	COSTCO 2.2 miles via bridge
+	GILLETTE 15.3 miles 
+	CINCO_DE_MAYO 3.14 miles 
+	AZEROTH 7.1 miles 
+EL_DORADO
+	AZEROTH 3 miles 
+GILLETTE
+	WASTELAND 15.3 miles 
+CINCO_DE_MAYO
+	WASTELAND 3.14 miles 
+
+The shortest routes from METROPOLIS are:
+
+	GOTHAM 2.4 miles 
+	COLUMBIA 123 miles 
+	HYRULE 123 miles 
+	ATHENS 9.8 miles 
+	BOSTON 4.7 miles 
+	VITA_ISLAND 123 miles 
+	TACO_BELL 123 miles 
+	EGGLAND 123 miles 
+	COSTCO 74.3 miles 
+	WASTELAND 123 miles 
+	GILLETTE 123 miles 
+	CINCO_DE_MAYO 123 miles 
+	AZEROTH 123 miles 
+	EL_DORADO 123 miles 
+
+The road upgrading goal can be achieved at minimal cost by upgrading:
+
+	VITA_ISLAND to BOSTON
+	BOSTON to GOTHAM
+	BOSTON to ATHENS
+	WASTELAND to COSTCO
+	GOTHAM to METROPOLIS
+	EGGLAND to METROPOLIS
+	EL_DORADO to AZEROTH
+	CINCO_DE_MAYO to WASTELAND
+	ATHENS to HYRULE
+	COLUMBIA to GOTHAM
+	TACO_BELL to ATHENS
+	GILLETTE to WASTELAND
+
+Connected components in event of a major storm are:
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	METROPOLIS
+	BOSTON
+	ATHENS
+	COSTCO
+	GOTHAM
+	EGGLAND
+	COLUMBIA
+	HYRULE
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	VITA_ISLAND
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	TACO_BELL
+
+    If all bridges fail, the following towns would form an isolated group:
+
+	WASTELAND
+	GILLETTE
+	CINCO_DE_MAYO
+	AZEROTH
+	EL_DORADO
+
+Obliterating any of the following would result in the province becoming disconnected:
+
+	ATHENS
+	BOSTON
+	WASTELAND
+	AZEROTH
+
